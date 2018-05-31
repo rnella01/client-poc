@@ -4,6 +4,5 @@ path "sys/*" {
 }
 
 path "tenant1/*" {
-  capabilities = ["create", "update", “read”]
+  capabilities = ["create", "update", "read"]
 }
-

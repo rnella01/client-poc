@@ -3,7 +3,7 @@
 path "sys/*" {
   capabilities = ["deny"]
 }
-path "tenant2/*" {
-  capabilities = ["create", "update", “read”]
-}
 
+path "tenant2/*" {
+  capabilities = ["create", "update", "read"]
+}

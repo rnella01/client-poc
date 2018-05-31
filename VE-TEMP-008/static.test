@@ -1,0 +1,5 @@
+#Contents of mysql.ini.ctmpl
+[mysql]
+
+username=Sjfnio
+password=et

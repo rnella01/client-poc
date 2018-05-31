@@ -1,0 +1,6 @@
+#Contents of mysql.ini.ctmpl
+[mysql]
+{{ with $secret := secret "template" }}
+username={{$secret.Data.username}}
+password={{$secret.Data.password}}
+{{ end }}
